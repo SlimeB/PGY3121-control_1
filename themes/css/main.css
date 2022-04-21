@@ -423,7 +423,7 @@ section.navbar{
 }
 .product-box span.sale_tag {
 	background: url(../images/sprites.png) no-repeat scroll 0 0 transparent;
-	height: 54px;
+	height: 55px;
 	position: absolute;
 	width: 55px;
 	z-index: 100;
@@ -438,12 +438,15 @@ section.navbar{
     -ms-transition: all 0.2s linear;
     transition: all 0.2s linear;
 	box-shadow: 0px 0px 5px #ccc;
+	
 }
 .product-box:hover a{
 	color:#fff !important;
 }
 .product-box img{
 	overflow:hidden;
+	width: 200px;
+	height: 200px;
 }
 .product-box a.title{
 	text-transform:uppercase;
@@ -453,6 +456,7 @@ section.navbar{
 	font-size:11px;
 	margin:15px 0 0px 0;
 }
+
 .product-box a.category{
 	color:#eb4800;
 }
